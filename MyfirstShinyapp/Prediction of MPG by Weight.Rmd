@@ -1,0 +1,28 @@
+---
+title: "Prediction of MPG by Weight"
+author: "Jun Nelson"
+date: "11/15/2020"
+output: html_document
+---
+
+### Prediction of MPG by from Weight in mtcars Dataset
+Motor Trend is a magazine about the automobile industry. It has a dataset called mtcars which is a collection of cars. The data frame of mtcars includes 32 observations with 11 variables. They are interested in exploring the relationship between a set of variables and miles per gallon (MPG)(outcome) by looking at the dataset mtcars.  Here we focus on the following two questions:
+
+1.	What is the distribution of MPG by Weight?
+2.	What is the correlation of Weight (predictor) and MPG(outcome) ? 
+
+### Data frame of mtcars
+```{r, echo=TRUE, results ='markup'}
+data.frame (mtcars)
+```
+
+### Fact: Prediction of MPG by Variables
+- MPG of a car is determined by multiple parameters such as cyl, disp, hp, wt, gear, etc..
+- We can create a prediction model to see what is the relationship between MPG and Weight.
+- MPG of a car has negative correlation with Weight by observing the plot.
+- Users could operate Slider of Weight to see changes in MPG by weight of car by click "submit"button.
+- Users could get quantification of MPG by selecting a specific weight by click "submit"button.
+- Be aware of only one predictor (weight) in this application.It is necessary to explore how multiple variables are correlated to MPG in mtcars data in the future
+
+### Car MPG and Weight Interactive Summary Statistics  
+The interactive plot depicts that car MPG has a negative correlation with Weight. Heavier weight car has less MPG.  

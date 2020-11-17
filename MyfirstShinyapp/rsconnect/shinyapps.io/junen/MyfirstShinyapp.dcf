@@ -1,0 +1,12 @@
+name: MyfirstShinyapp
+title: MyfirstShinyapp
+username:
+account: junen
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3247413
+bundleId: 3869459
+url: https://junen.shinyapps.io/MyfirstShinyapp/
+when: 1605582571.54565
+asMultiple: FALSE
+asStatic: FALSE
