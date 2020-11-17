@@ -5,8 +5,8 @@ account: junen
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3247413
-bundleId: 3869459
+bundleId: 3869528
 url: https://junen.shinyapps.io/MyfirstShinyapp/
-when: 1605582571.54565
+when: 1605584194.13503
 asMultiple: FALSE
 asStatic: FALSE
